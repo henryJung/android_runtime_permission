@@ -28,7 +28,7 @@
         } 
     }
 ```
--갤러리 켜기(해당 퍼미션 허용 거부 시 Snackbar 오픈 - 앱 설정 페이지로 이동)
+- 갤러리 켜기(해당 퍼미션 허용 거부 시 Snackbar 오픈 - 앱 설정 페이지로 이동)
 ```java
     RuntimeUtil.checkPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE, RuntimeUtil.PERMISSION_ALBUM, new OnPermssionCallBackListener() {
             @Override
@@ -50,4 +50,4 @@
     }
 ```
 
--rootview 설정 시 Snackbar바로 뭔하는 메세지를 노출 시킬 수 있음.
+- rootview 설정 시 Snackbar바로 뭔하는 메세지를 노출 시킬 수 있음.
