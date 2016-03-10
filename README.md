@@ -2,7 +2,7 @@
 기존 Android SDK 버전에서는 설치 시 해당 앱에 설정 된 permission을 물어보고 동의를 해야만 설치가 가능했다. 하지만, Android 6.0(SDK 23)이상의 버전에서는 설치 시에 묻는게 아니라 해당 기능이 permission을 필요로 할 때, permission을 활성화 해줘야 사용가능하다. 따라서 기존 6.0미만의 버전에서 개발했던 어플리케이션은 6.0이상의 폰에서는 정상적으로 작동하지 않을 수 있다.
 
 ##설명
-안드로이드 개발문서(http://developer.android.com/intl/ko/training/permissions/requesting.html)를 보면 자세히 나와 있지만, 좀 더 편리한 사용을 위해 Util을 만들어 사용한다.
+안드로이드 개발문서( http://developer.android.com/intl/ko/training/permissions/requesting.html )를 보면 자세히 나와 있지만, 좀 더 편리한 사용을 위해 Util을 만들어 사용한다.
 
 ##사용방법
 - 카메라 기능 켜기. (퍼미션 허용 확인하기 전, Snackbar로 메세지 보여주기)
