@@ -55,6 +55,7 @@
 ##반드시 설정 처리 해야 할 permission list
 Permission Group  | Permissions
 ------------- | -------------
-CALENDAR  | - READ_CALENDAR
-- WRITE_CALENDAR
+| WRITE_CALENDAR
+CALENDAR  | READ_CALENDAR 
+ 
 Content Cell  | Content Cell
